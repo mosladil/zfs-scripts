@@ -9,6 +9,7 @@ Dataset is an argument:
 	30 2 * * * /root/scripts/zsnap.pl rpool/data/mysql
 
 Scripts creates following snapshots, e.g:
+	NAME                               USED   AVAIL  REFER  MOUNTPOINT
 	$ zfs list -t snapshot
 	rpool/data/mysql@Mon               8.63M      -  93.4M  -
 	rpool/data/mysql@Tue               7.63M      -  93.4M  -
